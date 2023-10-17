@@ -28,18 +28,25 @@
   $(".testimonial-slider-active").owlCarousel({
     loop: true,
     center: true,
-    margin: 0,
+    margin: 27,
     autoWidth: true,
     responsiveClass: true,
-    nav: false,
+    nav: true,
+    dots: false,
     navText: [
-      '<span class="fas fa-chevron-left fa-2x"></span>',
-      '<span class="fas fa-chevron-right fa-2x"></span>',
+      '<i class="far fa-chevron-left"></i>',
+      '<i class="far fa-chevron-right"></i>',
     ],
     responsive: {
-      0: {},
-      600: {},
-      1000: {},
+      0: {
+        margin: 12,
+      },
+      369: {
+        margin: 16,
+      },
+      767: {
+        margin: 27,
+      },
     },
   });
 })(jQuery);

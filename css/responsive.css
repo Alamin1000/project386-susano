@@ -1,30 +1,254 @@
 
 
-@media (max-width: 1399px) {
- 
-}
-
-
 @media (max-width: 1199px) {
- 
+    .hero__image {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        max-width: 600px;
+    }
+    .hero-content {
+        padding-top: 70px;
+        padding-right: 0;
+    }
 }
 
 
 @media (max-width: 991px) {
- 
+
 }
 
 
 @media (max-width: 768px) {
- 
+    .header__logo {
+        width: 33px;
+    }
+
+    .hero-tr-shape {
+        width: calc(100vw - 80px);
+        height: 339px;
+    }
+
+
+    .hero-section {
+        padding: 95px 0 30px;
+    }
+    .hero-content {
+        text-align: center;
+    }
+    .hero-content .h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .hero-content p {
+        font-size: 14px;
+    }
+    .hero-content {
+        padding-top: 45px;
+    }
+    .hero-content .bottom-button {
+        margin-top: 8px;
+    }
+    .default-button {
+        min-height: 36px;
+        padding: 5px 40px;
+        font-size: 14px;
+        border-radius: 8px;
+    }
+    body {
+        font-size: 13px;
+    }
+    .h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .sec-title {
+        margin-bottom: 35px;
+    }
+
+    .da-section {
+        padding: 40px 0;
+    }
+    .da-cards-row {
+        --bs-gutter-x: 20px;
+    }
+    .da-card .icon {
+        width: 33px;
+        margin-bottom: 16px;
+    }
+    .da-card .content h3 {
+        font-size: 15px;
+        margin-bottom: 11px;
+    }
+    .da-card .content p {
+        font-size: 10px;
+    }
+    .da-card {
+        padding: 35px 18px 37px;
+        border-radius: 15px;
+    }
+
+
+    .product-section {
+        padding: 40px 0;
+    }
+    .products-sec-title {
+        margin-bottom: 20px !important;
+    }
+
+
+    .products-sec-bottom {
+        margin-top: 40px;
+    }
+    .testimonial-sec-title .quote {
+        width: 30px;
+    }
+    .testimonial-slider {
+        --width-n: 313;
+        --scale-down: 0.8;
+    }
+    .testimonial-card .contents p {
+        font-size: 10.7px;
+        margin-bottom: 9px;
+    }
+    .testimonial-card .contents h4 {
+        font-size: 12.6px;
+        margin-bottom: 10px;
+    }
+    .testimonial-card .contents h5 {
+        font-size: 10px;
+    }
+    .rating ul li {
+        font-size: 19px;
+    }
+    .rating ul {
+        gap: 7px;
+    }
+    .rating {
+        margin: 0 auto 12px;
+    }
+    .testimonial-card {
+        padding: 35px 15px 27px;
+        border-radius: 15px;
+    }
+    .slider-arrow-1 .owl-nav button {
+        height: 30px;
+        width: 30px;
+        font-size: 18px;
+        border-width: 1px !important;
+    }
+    .slider-arrow-1 .owl-nav {
+        margin-top: 30px;
+        gap: 10px;
+    }
+    .testimonial-section {
+        padding: 40px 0;
+    }
+
+
+    .faq-section {
+        padding: 40px 0;
+    }
+    .single-faq__title h3 {
+        font-size: 16px;
+    }
+    .single-faq-body p {
+        font-size: 13px;
+    }
+    .faq-sec-title {
+        margin-bottom: 15px !important;
+    }
+
+
+    .cta-section {
+        padding: 30px 0 70px;
+    }
+    .cta-card__title p {
+        font-size: 13px;
+    }
+    .cta-inp-form .submit {
+        min-height: 36px;
+        padding: 4px 20px;
+        min-width: 118px;
+        border-radius: 7px;
+    }
+    .cta-inp-form {
+        border-radius: 10px;
+        padding: 3px;
+    }
+    .cta-inp-form .input {
+        min-height: 36px;
+        padding: 4px 15px;
+        font-size: 13px;
+        border-radius: 7px;
+    }
+    .cta-card {
+        padding: 20px 25px 31px;
+        border-radius: 20px;
+    }
+    .cta-card__title {
+        margin-bottom: 20px;
+    }
+
+
+    .footer-section__inner {
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fs-menu li a {
+        height: 29px;
+        width: 29px;
+        font-size: 17px;
+    }
+    .fs-menu {
+        gap: 10px;
+    }
+
 }
 
 
 @media (max-width: 575px) {
- 
+    .container {
+        padding: 0 25px;
+    }
+
+
+
 }
 
 
-@media (max-width: 390px) {
- 
+@media (max-width: 420px) {
+    .container {
+        padding: 0 18px;
+    }
+    .hero-content .h1 {
+        font-size: 30px;
+    }
+
+    .da-cards-row {
+        --bs-gutter-x: 15px;
+    }
+    .da-card {
+        padding: 25px 12px 27px;
+        border-radius: 12px;
+    }
+}
+
+@media (max-width: 370px) {
+    .container {
+        padding: 0 12px;
+    }
+
+    .hero-content .h1 {
+        font-size: 28px;
+    }
+
+    .da-cards-row {
+        --bs-gutter-x: 12px;
+    }
+
+    .testimonial-slider {
+        --width-n: 250;
+    }
 }
