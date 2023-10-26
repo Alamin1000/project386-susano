@@ -1,5 +1,15 @@
 
 
+@media (max-width: 1355px) {
+    .tos-row__outer {
+        --ex-left: 0;
+    }
+    .tos__row .col-lg-3 {
+        width: 100%;
+        order: 2;
+    }
+}
+
 @media (max-width: 1199px) {
     .hero__image {
         margin-left: auto;
@@ -11,6 +21,24 @@
         padding-top: 70px;
         padding-right: 0;
     }
+
+
+    .page-hero__content .back {
+        gap: 10px;
+        font-size: 16px;
+    }
+    .page-hero__content .h1 {
+        font-size: 40px;
+    }
+    .page-hero-section {
+        padding: 50px 0;
+    }
+    .tos__l-box {
+        padding: 30px 30px;
+        border-radius: 12px;
+        margin-bottom: 25px;
+    }
+
 }
 
 
@@ -205,6 +233,76 @@
         gap: 10px;
     }
 
+
+    .page-hero__content .h1 {
+        font-size: 30px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .page-hero-section {
+        padding: 40px 0;
+    }
+    .tos-section {
+        padding: 50px 0;
+    }
+    .tos__grl h3 {
+        font-size: 21px;
+        margin-bottom: 13px;
+    }
+    .tos__l-box {
+        padding: 25px 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+    .tos__grl p {
+        margin-bottom: 7px;
+    }
+    .tos__c__title h2 {
+        font-size: 25px;
+    }
+    .tos__c__title {
+        margin-bottom: 20px;
+    }
+    .tos__c__cont h4 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .tos__c__cont p {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .ul-p li {
+        font-size: 13px;
+        padding-left: 16px;
+    }
+    .ul-p li::before {
+        left: 5px;
+    }
+    .ul-p li ul li {
+        font-size: 12px;
+    }
+    .ul-p li ul {
+        padding: 4px 0 0 3px;
+    }
+    .ul-p {
+        margin-bottom: 20px;
+    }
+
+    .tos__m-box__title h3 {
+        font-size: 18px;
+    }
+    .tos__menu ul li a {
+        gap: 5px;
+        font-size: 13px;
+    }
+    .tos__menu ul {
+        gap: 11px;
+    }
+    .tos__m-box {
+        padding: 20px 20px 25px;
+        border-radius: 10px;
+    }
+
 }
 
 
@@ -250,5 +348,14 @@
 
     .testimonial-slider {
         --width-n: 250;
+    }
+
+    .tos__l-box {
+        padding: 22px 12px;
+        border-radius: 8px;
+    }
+    .tos__m-box {
+        padding: 15px 12px 20px;
+        border-radius: 8px;
     }
 }
